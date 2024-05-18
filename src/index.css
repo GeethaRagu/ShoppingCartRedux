@@ -1,0 +1,40 @@
+/**header css**/
+.total_main_container{
+    border:2px solid white;
+    border-radius:1rem;
+}
+.total_container{
+   display:flex;
+   color:white;
+   width:100%;
+
+}
+.total_container div{
+    padding:1rem 0 1rem 0;
+}
+.total_container .left{
+    text-align: left;
+    padding-left:2rem;
+    width:50%;
+    
+}
+/**Products list**/
+@media screen and (min-width: 900px){
+.product_container{
+    display:flex;
+}
+}
+.product_container{
+    margin-top:2rem;
+}
+.carousel-inner img{
+    height:300px;
+    width:450px;
+}
+.card{
+    height:300px;
+    margin-left:2rem;
+}
+.quantity_container span{
+    padding:0 1rem 0 0;
+}
