@@ -138,7 +138,7 @@ const Home = () => {
           {ProductsList.map((element, index) => {
             return (
               <div key={index} className="product_container">
-                <Col className="col-4">
+                <Col className="col-md-4">
                   <Carousel>
                     {element.images.map((ele, i) => {
                       return (
