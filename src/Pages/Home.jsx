@@ -117,7 +117,7 @@ const Home = () => {
   const ProductsList = useSelector((state) => state.proreducer); // get products from state and store in ProductsList
   //console.log(ProductsList);
   useEffect(() => {
-    // call action to dispatch
+    // call action to show products 
     dispatchProducts(showProducts(products));
   }, [dispatchProducts]);
 

@@ -4,6 +4,8 @@ import { useSelector } from "react-redux";
 
 const Header = () => {
   const ProductsList = useSelector((state) => state.proreducer); // get products from state and store in ProductsList
+
+  //Total price
   const totalPrice = ProductsList.reduce(
     (total, data) => total + data.price * (data.quantity || 1),
     0
